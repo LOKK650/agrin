@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #1d1d1d; 
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header_top {
+    background-color: #01152b;
+    width: 100%;
+}
+
+.header_top .header_top_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex; 
+}
+
+.header_top .header_top_content .logo {
+    width: 50px;
+}
+
+.header_top .header_top_content .header_top_menu {
+    flex-basis: calc(100% - 50px); 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_top_menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.header_top_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header_top_menu ul li a {
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #e1e1e1;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #01152b;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #011224;
+}
+
+
+main section {
+    padding: 20px;
+}
+
+.header_quemsomos_content_descricao_02 {
+    margin: 20px;
+    text-align: center; 
+}
+.header_quemsomos_content_descricao {
+    margin: 20px;
+    text-align: center; 
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header_quemsomos_content_descricao img {
+    max-width: 70%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block;
+}
+.header_quemsomos_content_descricao_02 img {
+    max-width: 30%; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.titulo_principal {
+    font-size: 2.5em;
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.subtitulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; 
+    color: #ffffff;
+}
